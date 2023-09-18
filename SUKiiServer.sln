@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{28144FC1-16CF-4FFD-AF0E-FB14BA0FD393}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{F42B1A67-9E04-4BAB-B829-1B1796FDEB43}"
+	ProjectSection(SolutionItems) = preProject
+		dbupdate.sh = dbupdate.sh
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SUKiiServer.Domain", "Domain\SUKiiServer.Domain.csproj", "{A3AC4C69-3957-4580-BDB0-E6EE59B91EA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SUKiiServer.Application", "Application\SUKiiServer.Application.csproj", "{293BD46D-4866-4885-A11B-64D0111A8B8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SUKiiServer.Infrastructure", "Infrastructure\SUKiiServer.Infrastructure.csproj", "{0D4E8A74-CBA5-4422-B2A3-016B1A937A16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SUKiiServer.Presentation", "Presentation\SUKiiServer.Presentation.csproj", "{4665BEF9-5D01-43CE-8AB2-06012CAAB2E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SUKiiServer", "SUKiiServer\SUKiiServer.csproj", "{EA773AA1-604C-4F81-AF81-EB9785A3C91B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28144FC1-16CF-4FFD-AF0E-FB14BA0FD393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28144FC1-16CF-4FFD-AF0E-FB14BA0FD393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28144FC1-16CF-4FFD-AF0E-FB14BA0FD393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28144FC1-16CF-4FFD-AF0E-FB14BA0FD393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3AC4C69-3957-4580-BDB0-E6EE59B91EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3AC4C69-3957-4580-BDB0-E6EE59B91EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3AC4C69-3957-4580-BDB0-E6EE59B91EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3AC4C69-3957-4580-BDB0-E6EE59B91EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293BD46D-4866-4885-A11B-64D0111A8B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293BD46D-4866-4885-A11B-64D0111A8B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293BD46D-4866-4885-A11B-64D0111A8B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293BD46D-4866-4885-A11B-64D0111A8B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4E8A74-CBA5-4422-B2A3-016B1A937A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4E8A74-CBA5-4422-B2A3-016B1A937A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4E8A74-CBA5-4422-B2A3-016B1A937A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4E8A74-CBA5-4422-B2A3-016B1A937A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4665BEF9-5D01-43CE-8AB2-06012CAAB2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4665BEF9-5D01-43CE-8AB2-06012CAAB2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4665BEF9-5D01-43CE-8AB2-06012CAAB2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4665BEF9-5D01-43CE-8AB2-06012CAAB2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA773AA1-604C-4F81-AF81-EB9785A3C91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA773AA1-604C-4F81-AF81-EB9785A3C91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA773AA1-604C-4F81-AF81-EB9785A3C91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA773AA1-604C-4F81-AF81-EB9785A3C91B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA26853A-F1F3-4C80-B2DC-49B5D16255FC}
+	EndGlobalSection
+EndGlobal

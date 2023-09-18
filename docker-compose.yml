@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+    sukiiserver:
+        image: ${DOCKER_REGISTRY-}sukiiserver
+        build:
+            context: .
+            dockerfile: SUKiiServer/Dockerfile
+        depends_on:
+            - ms-sql-server
+        environment:
+            DBServer: "ms-sql-server"
+            DBPort: "1433"
+            DBUser: "SA"
+            DBPassword: "S3Cr3tPa??Word?1"
+            Database: "sukii-debug"
+
+    ms-sql-server:
+        image: "mcr.microsoft.com/mssql/server:2022-latest"
+        ports:
+          - "1433:1433"
+        environment:
+            SA_PASSWORD: "S3Cr3tPa??Word?1"
+            ACCEPT_EULA: "Y"
+            MSSQL_PID: "Express"
